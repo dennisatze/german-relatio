@@ -1,12 +1,12 @@
 # German relatio - for extracting narratives from German texts
 
-Humans are story-tellers and narratives are an interesting subject to study for social scientists. [Ash et al. (2023)](https://www.cambridge.org/core/journals/political-analysis/article/relatio-text-semantics-capture-political-and-economic-narratives/E72C0482A44C9A817E381B394A73E2D6) demonstrate an empirical way of extracting core narratives from large text corpora. Read the full research paper in order to understand the underlying theoretical framework and to get a full description of the complete algorithm. (see this [link](https://arxiv.org/abs/2108.01720) for the arxiv version.) In essence, the idea is to see the extraction of narratives as a problem of dimension reduction. Using semantic role labeling, clustering and word embeddings, varities of the same core narratives are clustered together, which makes them useful for further text analysis tools. The algorithm is available from the [relatio](https://github.com/relatio-nlp/relatio) package. 
+Humans are story-tellers and narratives are an interesting subject to study for social scientists. [Ash et al. (2023)](https://www.cambridge.org/core/journals/political-analysis/article/relatio-text-semantics-capture-political-and-economic-narratives/E72C0482A44C9A817E381B394A73E2D6) demonstrate an empirical way of extracting core narratives from large text corpora. Read the full research paper in order to understand the underlying theoretical framework and to get a full description of the complete algorithm (see this [link](https://arxiv.org/abs/2108.01720) for the arxiv version.) In essence, the idea is to see the extraction of narratives as a problem of dimension reduction. Using semantic role labeling, clustering and word embeddings, varities of the same core narratives are clustered together, which makes them useful for further text analysis tools. The algorithm is available from the [relatio](https://github.com/relatio-nlp/relatio) package. 
 
 The code in this repository is a (preliminary) extension of their work by adjusting it to German texts. 
 
 ## Prerequisites
 
-I recommend setting up a distinct python environment for tweaking with the code, e.g. with
+I recommend setting up a distinct python environment for tweaking the code, e.g. with
 
 ```bash
 python -m venv env
